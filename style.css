@@ -1,0 +1,80 @@
+@import url('https://fonts.google.com/specimen/Bai+Jamjuree');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bai Jamjuree';
+    line-height: 1.7;
+}
+p {
+    color: #d4d8db;
+    font-size: 16px;
+}
+.company-logo{
+    margin-left: 45%;
+    margin-top: -15%;
+}
+.top-section, .segment, .access, .workflow,
+.blacklist, .snippet, .preview, .clipboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.ios-button, .mac-button{
+    color: #ffffff;
+    height: 7vh;
+    width: 15vw;
+    margin: 1%;
+    border: none;
+    border-radius: 50px;
+}
+.ios-button{
+    background-color: #59b8a6;
+}
+.mac-button{
+    background-color: #6077f6;
+}
+.section{
+    display: flex;
+    margin-top: 5%;
+    padding: 1em;
+}
+.section-notes{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.iCloud, .history{
+    margin-top: 10%;
+}
+.device-image{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.divide, .images {
+    display: flex;
+    justify-content: center;
+}
+.snippet, .preview, .ibm, .microsoft, .vector, .Hp{
+    margin-left: 7%;
+}
+.footer{
+    background-color: #f5f6f8;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    margin-top: 5%;
+}
+.footer-logo{
+    height: 10vh;
+}
+.facebook-icon, .twitter-icon, .instagram-icon{
+    padding: 1em;
+}
